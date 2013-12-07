@@ -6,7 +6,7 @@ This is a test project I create for testing python module relationship.
 Directory Tree:
 <pre>
 .
-World.py
+├── HelloWorld.py
 ├── README.md
 ├── __init__.py
 ├── hello
