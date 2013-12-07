@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 from world.world import World
 
 class Hello(object):
@@ -7,6 +9,6 @@ class Hello(object):
         return str(self) + str(World())
 if __name__ == '__main__':
     hi = Hello()
+    
     print hi.hello_world()
-
     
